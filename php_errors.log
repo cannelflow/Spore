@@ -1,0 +1,49 @@
+[21-Feb-2017 22:16:52 UTC] WordPress database error Table 'c9.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'cannelflow' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, call_user_func_array, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[21-Feb-2017 22:16:52 UTC] WordPress database error Table 'c9.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'cannelflow' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, call_user_func_array, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[21-Feb-2017 22:17:01 UTC] WordPress database error Table 'c9.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'cannelflow' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, call_user_func_array, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[21-Feb-2017 22:17:01 UTC] WordPress database error Table 'c9.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'cannelflow' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, call_user_func_array, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[21-Feb-2017 22:17:26 UTC] WordPress database error Table 'c9.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'cannelflow' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, call_user_func_array, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[21-Feb-2017 22:17:26 UTC] WordPress database error Table 'c9.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'cannelflow' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), WP->init, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, call_user_func_array, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[23-Feb-2017 23:09:04 UTC] PHP Warning:  Missing argument 1 for WP_Customize_Manager::remove_section(), called in /home/ubuntu/workspace/wp-content/themes/myspore/INC/customizer.php on line 6 and defined in /home/ubuntu/workspace/wp-includes/class-wp-customize-manager.php on line 3023
+[23-Feb-2017 23:09:04 UTC] PHP Stack trace:
+[23-Feb-2017 23:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[23-Feb-2017 23:09:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[23-Feb-2017 23:09:04 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[23-Feb-2017 23:09:04 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[23-Feb-2017 23:09:04 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[23-Feb-2017 23:09:04 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:470
+[23-Feb-2017 23:09:04 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[23-Feb-2017 23:09:04 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[23-Feb-2017 23:09:04 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[23-Feb-2017 23:09:04 UTC] PHP  10. WP_Customize_Manager->wp_loaded() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[23-Feb-2017 23:09:04 UTC] PHP  11. do_action() /home/ubuntu/workspace/wp-includes/class-wp-customize-manager.php:734
+[23-Feb-2017 23:09:04 UTC] PHP  12. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[23-Feb-2017 23:09:04 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[23-Feb-2017 23:09:04 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[23-Feb-2017 23:09:04 UTC] PHP  15. myspore_customize_register() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[23-Feb-2017 23:09:04 UTC] PHP  16. WP_Customize_Manager->remove_section() /home/ubuntu/workspace/wp-content/themes/myspore/INC/customizer.php:6
+[23-Feb-2017 23:18:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/wp-content/themes/myspore/INC/customizer.php on line 12
+[23-Feb-2017 23:18:07 UTC] PHP Stack trace:
+[23-Feb-2017 23:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[23-Feb-2017 23:18:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[23-Feb-2017 23:18:07 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[23-Feb-2017 23:18:07 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[23-Feb-2017 23:18:07 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[23-Feb-2017 23:18:07 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:425
+[24-Feb-2017 12:33:14 UTC] PHP Fatal error:  Call to undefined method WP_Customize_Manager::add_settings() in /home/ubuntu/workspace/wp-content/themes/myspore/INC/customizer.php on line 13
+[24-Feb-2017 12:33:14 UTC] PHP Stack trace:
+[24-Feb-2017 12:33:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[24-Feb-2017 12:33:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[24-Feb-2017 12:33:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[24-Feb-2017 12:33:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[24-Feb-2017 12:33:14 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[24-Feb-2017 12:33:14 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:470
+[24-Feb-2017 12:33:14 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[24-Feb-2017 12:33:14 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[24-Feb-2017 12:33:14 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 12:33:14 UTC] PHP  10. WP_Customize_Manager->wp_loaded() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 12:33:14 UTC] PHP  11. do_action() /home/ubuntu/workspace/wp-includes/class-wp-customize-manager.php:734
+[24-Feb-2017 12:33:14 UTC] PHP  12. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[24-Feb-2017 12:33:14 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[24-Feb-2017 12:33:14 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[24-Feb-2017 12:33:14 UTC] PHP  15. myspore_customize_register() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
